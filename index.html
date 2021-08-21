@@ -31,39 +31,41 @@
                                 technology
                                 company by revenue and, since January 2021, the world's most valuable company.</p>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12 mb-3">
                             <h6>Memory</h6>
-                            <div class="row g-1">
+                            <div class="row g-0">
                                 <div class="col-4">
-                                    <p class="border-space">8GB unified memory</p>
+                                    <button id="memory-8" class="border-space">8GB unified memory</button>
                                 </div>
                                 <div class="col-4">
-                                    <p class="border-space">16GB unified memory</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <h6>Storage</h6>
-                            <div class="row g-1">
-                                <div class="col-4">
-                                    <p class="border-space">256GB SSD storage</p>
-                                </div>
-                                <div class="col-4">
-                                    <p class="border-space">512GB SSD storage</p>
-                                </div>
-                                <div class="col-4">
-                                    <p class="border-space">1TB SSD storage</p>
+                                    <button id="memory-16" class="border-space">16GB unified memory</button>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 mb-3">
+                            <h6>Storage</h6>
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <button id="storage-256" class="border-space">256GB SSD storage</button>
+                                </div>
+                                <div class="col-4">
+                                    <button id="storage-512" class="border-space">512GB SSD storage</button>
+                                </div>
+                                <div class="col-4">
+                                    <button id="storage-1TB" class="border-space">1TB SSD storage</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-5">
                             <h6>Choose your delivery option</h6>
-                            <div class="row g-1">
+                            <div class="row g-0">
                                 <div class="col-6">
-                                    <p class="border-delivery">Friday, Aug 25 FREE Prime Delivery</p>
+                                    <button id="free-delivery" class="border-space">Friday, Aug 25 FREE Prime
+                                        Delivery</button>
                                 </div>
                                 <div class="col-6">
-                                    <p class="border-delivery">Friday, Aug 21 Delivery charge $<span>20</span></p>
+                                    <button id="cost-delivery" class="border-space">Friday, Aug 21 Delivery charge
+                                        $<span>20</span></button>
                                 </div>
                             </div>
                         </div>
@@ -73,7 +75,7 @@
                                     <h6>Best Price</h6>
                                 </div>
                                 <div class="col-2">
-                                    <p>$<span>1299</span> </p>
+                                    <p>$<span id="fixed-price">1299</span> </p>
                                 </div>
                                 <hr>
                             </div>
@@ -81,10 +83,10 @@
                         <div class="col-6 price-style">
                             <div class="row">
                                 <div class="col-10">
-                                    <h6>Extra Money Cost</h6>
+                                    <h6>Extra Memory Cost</h6>
                                 </div>
                                 <div class="col-2">
-                                    <p>$<span>0</span> </p>
+                                    <p>$<span id="memory-cost">0</span> </p>
                                 </div>
                                 <hr>
                             </div>
@@ -95,7 +97,7 @@
                                     <h6>Extra Storage Cost</h6>
                                 </div>
                                 <div class="col-2">
-                                    <p>$<span>0</span> </p>
+                                    <p>$<span id="storage-cost">0</span> </p>
                                 </div>
                                 <hr>
                             </div>
@@ -106,7 +108,7 @@
                                     <h6>Delivery Charge</h6>
                                 </div>
                                 <div class="col-2">
-                                    <p>$<span>0</span> </p>
+                                    <p>$<span id="delivery-cost">0</span> </p>
                                 </div>
                                 <hr class="line-style">
                             </div>
@@ -117,7 +119,7 @@
                                     <h6>Total Price</h6>
                                 </div>
                                 <div class="col-2">
-                                    <p>$<span>1299</span> </p>
+                                    <p>$<span id="total-price">1299</span> </p>
                                 </div>
                                 <hr>
                             </div>
@@ -126,10 +128,10 @@
                             <h6>Add Pomo code</h6>
                             <div class="row g-3">
                                 <div class="col-8">
-                                    <input class="input-field" type="text" name="" id="">
+                                    <input class="input-field" type="text" name="" id="input-promo">
                                 </div>
                                 <div class="col-4">
-                                    <button class="button-style">Apply</button>
+                                    <button id="promo-button" class="button-style">Apply</button>
                                 </div>
                             </div>
                         </div>
@@ -137,7 +139,7 @@
                 </div>
                 <hr>
                 <div>
-                    <h2 class="text-center">Total: $<span>1299</span></h2>
+                    <h2 class="text-center">Total: $<span id="grand-total">1299</span></h2>
                 </div>
             </div>
         </section>

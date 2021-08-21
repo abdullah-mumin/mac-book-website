@@ -6,16 +6,8 @@ body{
     margin-top: -17rem;
 }
 .border-space{
-    border: 2px solid gray;
     border-radius: 10px;
     padding-left: 10px;
-    padding-bottom: 5px;
-}
-.border-delivery{
-    border: 2px solid gray;
-    border-radius: 10px;
-    padding-left: 2px;
-    padding-right: 2px;
     padding-bottom: 5px;
 }
 .input-field{
