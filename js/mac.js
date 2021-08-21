@@ -28,7 +28,7 @@ function promoCalc(price) {
     let couponTxt = document.getElementById('input-promo').value;
     price = textToPrice('total-price')
     if (couponTxt == 'stevekaku') {
-        total = price * .2;
+        total = (price * 20) / 100;
         grandTotal = price - total;
     }
     else {
